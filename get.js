@@ -20,7 +20,7 @@ export const main = handler(async (event, context) => {
 
 
   // Set a timeout
-  await new Promise(resolve => settimeout(resolve, 10000));
+  await new Promise(resolve => setTimeout(resolve, 10000));
 
   // Return the retrieved item
   return result.Item;
